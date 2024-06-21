@@ -1,0 +1,126 @@
+body{
+    font-family: "Hind Siliguri", sans-serif;
+}
+/* nav related styles */
+nav{
+    border-radius: 50px;
+    background-color: #F0F8FF;
+    box-shadow: #0C4A6E 2px 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 12px 20px;
+}
+nav > ul{
+    padding-top: 5px;
+    display: flex;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #0158a5;
+}
+nav > ul > li{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: larger;
+}
+.button{
+    padding: 15px 25px;
+}
+.btn{
+    height: 50px;
+    background-color: #075985;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-weight: bold;
+    font-size: larger;
+}
+/* header related styls */
+.banner{
+    border-radius: 15px;
+    background-color: #0F172A;
+    margin-top: -20px;
+    height: 720px;
+    background-image: url('../Images/masjid.png');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position-x: 300px ;
+}
+
+.banner-content > h1 {
+    color:  white;
+    font: bold;
+    font-size: 60px;
+    text-align: center;
+    padding: 100px 200px 0px;
+}
+.primary-text {
+    color:  white;
+    font: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 300px ;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+.button-details{
+    background-color:#0F172A;
+    border-radius: 20px;
+    border: 2px solid #0284C7;
+    color: white;
+    padding: 20px 45px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#details-button{
+    padding-left:10px ;
+}
+/* footer style */
+.logo{
+    border-radius: 30px;
+}
+footer{
+    background-color:#001428;
+    margin-top: 120px;
+    border-radius: 30px 30px 0px 0px; 
+    background-image: url(../Images/footer-vecotre.png);
+    background-blend-mode: multiply;
+    display: flex;
+    gap: 200px;
+}
+h4{
+    color:  white;
+    font-size: 28px;
+    text-align: center;
+
+} 
+
+.footer-column{
+    width: 480px;
+}
+.footer-text-1{
+    color:  white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 40px;
+ }
+.footer-text{
+    color:  white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+.footer-column > ul{
+    list-style: none;
+}
