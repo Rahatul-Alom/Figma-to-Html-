@@ -46,7 +46,7 @@ nav > ul > li{
     background-color: #0F172A;
     margin-top: -20px;
     height: 720px;
-    background-image: url('../Images/masjid.png');
+    background-image: url('/Images/masjid.png');
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: 1400px;
